@@ -1,0 +1,16 @@
+{
+  "name": "@njs2/mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "loadEnv": true,
+  "dependencies": {
+    "mongoose": "^5.5.5"
+  },
+  "scripts": {
+    "postinstall": "node ./postinstall.js --init-dir $INIT_CWD"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
